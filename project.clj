@@ -6,7 +6,7 @@
   :description "A rich REPL for Clojure in the notebook style."
   :url "https://github.com/JonyEpsilon/gorilla-repl"
   :license {:name "MIT"}
-  :dependencies ^:replace [[org.clojure/clojure "1.6.0"]
+  :dependencies ^:replace [[org.clojure/clojure "1.8.0"]
                            [http-kit "2.1.18"]
                            [ring/ring-json "0.4.0"]
                            [cheshire "5.3.1"]
