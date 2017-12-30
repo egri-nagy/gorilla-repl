@@ -19,5 +19,6 @@
                            [grimradical/clj-semver "0.2.0" :exclusions [org.clojure/clojure]]
                            [cider/cider-nrepl "0.10.2"]
                            [org.clojure/tools.nrepl "0.2.12"]]
+  :aot [gorilla-repl.core]
   :main ^:skip-aot gorilla-repl.core
   :target-path "target/%s")
