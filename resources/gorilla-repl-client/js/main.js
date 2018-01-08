@@ -78,7 +78,8 @@ var app = function () {
                 "Hit " + ck + "+g twice in quick succession or click the menu icon (upper-right corner) " +
                 "for more commands.")
         );
-        ws.segments().push(codeSegment("(ns " + makeHipNSName() + "\n  (:require [gorilla-plot.core :as plot]))"));
+        ws.segments().push(codeSegment(""));
+        //ws.segments().push(codeSegment("(ns " + makeHipNSName() + "\n  (:require [gorilla-plot.core :as plot]))"));
         self.setWorksheet(ws, "");
         // make it easier for the user to get started by highlighting the empty code segment
         eventBus.trigger("worksheet:segment-clicked", {id: self.worksheet().segments()[1].id});
