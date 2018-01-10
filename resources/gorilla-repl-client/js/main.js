@@ -78,7 +78,7 @@ var app = function () {
                 "Hit " + ck + "+g twice in quick succession or click the menu icon (upper-right corner) " +
                 "for more commands.")
         );
-        ws.segments().push(codeSegment(""));
+        ws.segments().push(codeSegment(";;this gives you convenient access to string functions and access to documentation\n;;just evaluate this and carry on as normal\n(require '[clojure.string :as string] '[clojure.repl :refer :all])"));
         //ws.segments().push(codeSegment("(ns " + makeHipNSName() + "\n  (:require [gorilla-plot.core :as plot]))"));
         self.setWorksheet(ws, "");
         // make it easier for the user to get started by highlighting the empty code segment
