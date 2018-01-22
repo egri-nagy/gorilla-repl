@@ -74,7 +74,7 @@ var app = function () {
         ws.segments().push(
             // Note that the variable ck here is defined in commandProcessor.js, and gives the appropriate
             // shortcut key (ctrl or alt) for the platform.
-            freeSegment("# Clojure Notebook (powered by Gorilla REPL)\n\nShift + enter evaluates code. " +
+            freeSegment("# Clojure Notebook\n\nShift + enter evaluates code. " +
                 "Hit " + ck + "+g twice in quick succession or click the menu icon (upper-right corner) " +
                 "for more commands.")
         );
