@@ -7,7 +7,7 @@
 .clj-vector {color: #1C005A}
 .clj-raw {color: red}
 .clj-nil {color: grey}
-.clj-lazy-seq {color: lightgreen}
+.clj-lazy-seq {color: black}
 .clj-list {color: black}
 .clj-map {color: purple}
 .clj-set {color: brown}
